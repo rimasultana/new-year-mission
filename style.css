@@ -72,24 +72,42 @@ img {
 }
 /* End of offer-section */
 
-.party-banner { background-color: #fff;
-     padding: 120px 140px;
+.party-banner {
+  background-color: #fff;
+  padding: 120px 140px;
 }
-.party-banner-container{
-    background-image: url("image/Vectorrr.png");
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background-position: center;
-    
+.party-banner-container {
+  background-image: url("image/Vectorrr.png");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1320px;
+  height: 600px;
 }
-
 
 .party-banner-details {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .party-banner-photo {
   width: 300px;
   height: 450px;
+}
+.party-banner-title {
+  margin: 125px;
+  color: #fff;
+}
+.party-banner-head {
+  font-size: 64px;
+}
+.party-banner-description {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 48px;
+  padding:28px 12px ;
+}
+a{
+    text-decoration: none;
+    color: #fff;
 }
