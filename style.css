@@ -72,18 +72,24 @@ img {
 }
 /* End of offer-section */
 
-.party-banner {
-  background-color: #fff;
+.party-banner { background-color: #fff;
+     padding: 120px 140px;
 }
-.party-banner-container {
-}
-.party-banner-details {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.party-banner-photo{
-    width: 300px;
-    height: 450px;
+.party-banner-container{
+    background-image: url("image/Vectorrr.png");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 
+
+.party-banner-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.party-banner-photo {
+  width: 300px;
+  height: 450px;
+}
