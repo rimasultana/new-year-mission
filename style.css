@@ -75,6 +75,14 @@ img {
 .party-banner{
     background-color: #fff;
 }
+.party-banner-container{
+    position: relative;
+}
+.party-banner-details{
+    position: absolute;
+    top: 250px;
+    left: 270px;
+}
 
 .party-banner-photo{
     padding: 120px 140px;
