@@ -75,9 +75,13 @@ img {
 .party-banner{
     background-color: #fff;
 }
-.party-banner-container{
-background-image: url("");
+
+.party-banner-photo{
+    padding: 120px 140px;
+
 }
-.party-banner-details{}
-.party-banner-title{}
-.party-banner-description{}
+
+
+}
+.party-banner-details{
+
