@@ -72,24 +72,18 @@ img {
 }
 /* End of offer-section */
 
-.party-banner{
-    background-color: #fff;
+.party-banner {
+  background-color: #fff;
 }
-.party-banner-container{
-    position: relative;
+.party-banner-container {
 }
-.party-banner-details{
-    position: absolute;
-    top: 250px;
-    left: 270px;
+.party-banner-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 .party-banner-photo{
-    padding: 120px 140px;
-
+    width: 300px;
+    height: 450px;
 }
-
-
-}
-.party-banner-details{
 
