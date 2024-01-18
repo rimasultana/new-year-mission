@@ -12,40 +12,50 @@ body {
 img {
   width: 100%;
   height: auto;
+  display: block;
 }
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
                  Banner-part
   =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
-.banner {
-  background-color: #fff;
-  margin: 50px 140px 140px 120px;
-}
-.banner-container {
-  background-image: url("image/Banner\ Image.png"),
-    linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-  background-blend-mode: overlay;
+.banner{
+  width: 1320px;
+  height: 600px;
+  background-image: url("image/Banner\ Image.png");
+  background-position: bottom;
   background-repeat: no-repeat;
-  margin: auto;
-  border-radius: 16px;
+  border-radius: 12px;
+  margin:50px auto 120px;
 }
+
+
+.container{
+  border-radius: 16px;
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
 .banner-details {
   color: #fff;
   text-align: center;
+  padding-top: 177px;
+
 }
 .banner-details h3 {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 400;
+  margin-bottom: 16px;
 }
 .banner-details p {
+  color: #FFF;
+  text-align: center;
+  font-size: 72px;
   font-weight: 900;
-  font-size: 60px;
+  line-height: 95px; 
 }
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
                  Offer-part
   =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 .offer-section {
   background-color: #fff;
-  margin: 50px 140px 140px 120px;
 }
 .offer-container {
   text-align: center;
@@ -82,17 +92,17 @@ img {
   background-size: cover;
   border-radius: 8px;
   margin: 0 140px;
-
 }
 
 .party-banner-container {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-display: flex;
-justify-content: space-around;
-align-items: center;
-gap: 40px;
-padding: 64px 126px;
-margin-bottom: 126px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 126px;
 }
-
-
+.party-banner-text {
+  margin-bottom: 126px;
+  color: #fff;
+}
