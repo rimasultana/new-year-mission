@@ -17,27 +17,25 @@ img {
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
                  Banner-part
   =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
-.banner{
+.banner {
   width: 1320px;
   height: 600px;
   background-image: url("image/Banner\ Image.png");
   background-position: bottom;
   background-repeat: no-repeat;
   border-radius: 12px;
-  margin:50px auto 120px;
+  margin: 50px auto 120px;
 }
 
-
-.container{
+.container {
   border-radius: 16px;
-background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
 }
 
 .banner-details {
   color: #fff;
   text-align: center;
   padding-top: 177px;
-
 }
 .banner-details h3 {
   font-size: 32px;
@@ -45,11 +43,11 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
   margin-bottom: 16px;
 }
 .banner-details p {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 72px;
   font-weight: 900;
-  line-height: 95px; 
+  line-height: 95px;
 }
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
                  Offer-part
@@ -59,7 +57,6 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 .offer-container {
   text-align: center;
- 
 }
 .btn-color {
   color: #f00;
@@ -104,23 +101,69 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 .party-banner-text {
   color: #fff;
 }
-.party-banner-title{
+.party-banner-title {
   font-size: 64px;
   font-weight: 900;
   margin-bottom: 24px;
 }
-.party-banner-description{
+.party-banner-description {
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 48px;
   font-family: "Inter", sans-serif;
 }
-a{
-  color: #FFF;
+a {
+  color: #fff;
   text-decoration: none;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 142px;
+}
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                 details/place-part
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.details-section {
+  width: 1320px;
+  height: 482px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  font-family: "Inter", sans-serif;
+  margin: auto;
+
+}
+.details-text{
+  text-align: center;
+  padding: 100px 385px 214px 385px;
+
+}
+.details-text h4{
+  color: #070211;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+}
+
+.btn-primary{
+  color: #FFF;
 text-align: center;
-font-family: "Inter", sans-serif;font-size: 20px;
+font-size: 20px;
 font-weight: 700;
 text-transform: uppercase;
-margin-bottom: 142px;
+padding: 16px 32px;
+ border-radius: 8px;
+background: #F00;
+border: 0;
+display: inline-flex;
+margin-top: 48px;
 }
+         
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                 details/place-part
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
