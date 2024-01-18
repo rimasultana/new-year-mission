@@ -8,30 +8,29 @@
 }
 body {
   font-family: "Merriweather", serif;
-  margin-top: 120px;
 }
 img {
   width: 100%;
   height: auto;
-  display: block;
 }
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                 Banner-part
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 .banner {
   background-color: #fff;
-  padding: 50px 140px;
+  margin: 50px 140px 140px 120px;
 }
 .banner-container {
   background-image: url("image/Banner\ Image.png"),
     linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   background-blend-mode: overlay;
   background-repeat: no-repeat;
-  width: 1320px;
-  height: 600px;
   margin: auto;
+  border-radius: 16px;
 }
 .banner-details {
   color: #fff;
   text-align: center;
-  padding: 177px 500px;
 }
 .banner-details h3 {
   font-size: 30px;
@@ -41,9 +40,12 @@ img {
   font-weight: 900;
   font-size: 60px;
 }
-/* offer section */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                 Offer-part
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 .offer-section {
   background-color: #fff;
+  margin: 50px 140px 140px 120px;
 }
 .offer-container {
   text-align: center;
@@ -70,49 +72,19 @@ img {
   width: 800px;
   height: 500px;
 }
-/* End of offer-section */
-
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                 Party-part
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 .party-banner {
-  background-color: #fff;
-  padding: 120px 140px;
+
 }
+
 .party-banner-container {
-  background-image: url("image/Vectorrr.png");
-  background-blend-mode: overlay;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 1320px;
-  height: 600px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
 }
 
 .party-banner-details {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.party-banner-photo {
-  width: 300px;
-  height: 450px;
-  width: 319px;
-  height: 464px;
-  margin-top: 68px;
-  margin-right: 138px;
-
-}
-.party-banner-title {
-  margin: 100px;
-  color: #fff;
-}
-.party-banner-head {
-  font-size: 64px;
-}
-.party-banner-description {
-    margin-top: 28px;
-  font-size: 18px;
-  font-family: "Inter", sans-serif;
-  margin-bottom: 48px;
-}
-a{
-    text-decoration: none;
-    color: #fff;
 }
