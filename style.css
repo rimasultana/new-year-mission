@@ -59,7 +59,7 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 .offer-container {
   text-align: center;
-  font-family: "Inter", sans-serif;
+ 
 }
 .btn-color {
   color: #f00;
@@ -90,8 +90,8 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 120px 140px 120px 140px;
   border-radius: 8px;
-  margin: 0 140px;
 }
 
 .party-banner-container {
@@ -100,9 +100,27 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
   justify-content: space-around;
   align-items: center;
   gap: 40px;
-  margin-bottom: 126px;
 }
 .party-banner-text {
-  margin-bottom: 126px;
   color: #fff;
+}
+.party-banner-title{
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+.party-banner-description{
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 48px;
+  font-family: "Inter", sans-serif;
+}
+a{
+  color: #FFF;
+  text-decoration: none;
+text-align: center;
+font-family: "Inter", sans-serif;font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+margin-bottom: 142px;
 }
