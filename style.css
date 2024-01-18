@@ -76,17 +76,23 @@ img {
                  Party-part
   =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 .party-banner {
-background-color: #fff;
-margin: 50px 140px 126px 140px;
+  background-image: url("image/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+  margin: 0 140px;
+
 }
 
 .party-banner-container {
-  background: url("image/Vectorrr.png") ,
-  linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%); 
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 40px;
+padding: 64px 126px;
+margin-bottom: 126px;
 }
 
-.party-banner-details {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
