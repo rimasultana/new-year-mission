@@ -170,7 +170,6 @@ a {
   margin-top: 120px;
   font-family: "Inter", sans-serif;
   margin-bottom: 120px;
-
 }
 .coming-container {
   display: flex;
@@ -200,70 +199,90 @@ a {
   color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   font-weight: 400;
-  line-height: 32px; 
+  line-height: 32px;
   margin-top: 22px;
 }
 .middle-img img {
   width: 463px;
-height: 463px;
-border-radius:50% ;
-border: 15px solid #F00;
-padding: 50px;
+  height: 463px;
+  border-radius: 50%;
+  border: 15px solid #f00;
+  padding: 50px;
 }
 
-.year-number-details  {
+.year-number-details {
 }
 .year-number-details h3 {
-font-size: 48px;
-font-weight: 700;
-color: #F00;
+  font-size: 48px;
+  font-weight: 700;
+  color: #f00;
 }
 .year-number-details p {
-  color: rgba(7, 2, 17, 0.60);
-font-size: 20px;
-font-weight: 400;
-width: 276px;
-margin-top: 8px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  width: 276px;
+  margin-top: 8px;
 }
-.year-number-details img{
+.year-number-details img {
   width: 140px;
-height: 140px;
-margin-top: 43px;
+  height: 140px;
+  margin-top: 43px;
 }
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
                  Holiday-part
   =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 
-.holiday-section{
-  background-color: #FFF;
+.holiday-section {
+  background-color: #fff;
 }
-.holiday-container{
+.holiday-container {
   font-family: "Inter", sans-serif;
   text-align: center;
   margin: auto;
-
 }
-.holiday-container h5{
+.holiday-container h5 {
   color: #070211;
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 8px;
 }
-.holiday-container h1{
+.holiday-container h1 {
   color: #070211;
   font-family: "Merriweather", serif;
   font-size: 72px;
   font-weight: 900;
   margin-bottom: 28px;
 }
-.holiday-container p{
-  color: rgba(7, 2, 17, 0.60);
+.holiday-container p {
+  color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
   width: 1068px;
   margin: auto;
 }
-.color{
-  color: #F00;
+.color {
+  color: #f00;
+}
+.disscount-banner {
+  height: 433px;
+  margin-top: 120px;
+  background: url("image/Rectangle\ 2.png"), url("image/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-position: bottom,top right;
+
+}
+.disscount-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.gift-img {
+ ;
+}
+.disscount-img {
+  width: 206.841px;
+  height: 206.841px;
+  flex-shrink: 0;
 }
