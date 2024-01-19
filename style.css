@@ -266,23 +266,6 @@ a {
   color: #f00;
 }
 .disscount-banner {
-  height: 433px;
-  margin-top: 120px;
-  background: url("image/Rectangle\ 2.png"), url("image/Rectangle\ 1.png");
-  background-repeat: no-repeat;
-  background-position: bottom,top right;
 
-}
-.disscount-container {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-}
-.gift-img {
- ;
-}
-.disscount-img {
-  width: 206.841px;
-  height: 206.841px;
-  flex-shrink: 0;
+
 }
