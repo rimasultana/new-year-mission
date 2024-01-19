@@ -54,6 +54,7 @@ img {
   =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 .offer-section {
   background-color: #fff;
+  border-radius: 8px;
 }
 .offer-container {
   text-align: center;
@@ -89,6 +90,7 @@ img {
   background-size: cover;
   margin: 120px 140px 120px 140px;
   border-radius: 8px;
+  border-radius: 12px;
 }
 
 .party-banner-container {
@@ -126,6 +128,7 @@ a {
                  details/place-part
   =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 .details-section {
+  border-radius: ;
   width: 1320px;
   height: 482px;
   background: linear-gradient(
@@ -133,6 +136,7 @@ a {
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
+  border-radius: 16px;
   font-family: "Inter", sans-serif;
   margin: auto;
 }
@@ -170,6 +174,7 @@ a {
   margin-top: 120px;
   font-family: "Inter", sans-serif;
   margin-bottom: 120px;
+  border-radius: 16px;
 }
 .coming-container {
   display: flex;
@@ -273,8 +278,10 @@ a {
 }
 .img-1 {
   position: absolute;
-  top: 64px;
+  top: 64px; 
   right: 0;
+  border-radius: 16px 16px 0px 0px;
+background:  lightgray -59.98px 0px / 151.553% 100%;
 }
 .img-2{
   border-radius: 16px 0px 16px 16px;
@@ -283,5 +290,25 @@ a {
   right: 0;
 }
 .img-3{
-  
+
+  position: absolute;
+  left: 10px;
+  top:160px;
+}
+.img-3 img{
+  width: 80%;
+}
+
+.img-4{
+  width: 206.841px;
+height: 206.841px;
+position: absolute;
+top: 150px;
+right: 300px;
+color: #FFF;
+font-family: "Raleway Black";
+font-size: 73px;
+font-weight: 900;
+padding: 9px;
+
 }
