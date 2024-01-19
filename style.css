@@ -278,37 +278,38 @@ a {
 }
 .img-1 {
   position: absolute;
-  top: 64px; 
+  top: 64px;
   right: 0;
   border-radius: 16px 16px 0px 0px;
-background:  lightgray -59.98px 0px / 151.553% 100%;
+  background: lightgray -59.98px 0px / 151.553% 100%;
 }
-.img-2{
+.img-2 {
   border-radius: 16px 0px 16px 16px;
   position: absolute;
   top: 497px;
   right: 0;
 }
-.img-3{
-
+.img-3 {
   position: absolute;
   left: 10px;
-  top:160px;
+  top: 160px;
 }
-.img-3 img{
+.img-3 img {
   width: 80%;
 }
 
-.img-4{
+.img-4 {
   width: 206.841px;
-height: 206.841px;
-position: absolute;
-top: 150px;
-right: 300px;
-color: #FFF;
-font-family: "Raleway Black";
-font-size: 73px;
-font-weight: 900;
-padding: 9px;
-
+  height: 206.841px;
+  position: absolute;
+  top: 150px;
+  right: 300px;
+  color: #fff;
+  font-family: "Raleway Black";
+  font-size: 73px;
+  font-weight: 900;
+  padding: 9px;
 }
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                 Portfolio-part
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
