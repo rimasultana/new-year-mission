@@ -10,7 +10,7 @@ body {
   font-family: "Merriweather", serif;
 }
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -265,7 +265,23 @@ a {
 .color {
   color: #f00;
 }
-.disscount-banner {
-
-
+.disscount-img {
+  border-radius: 16px 16px 0px 0px;
+  position: relative;
+  margin: 120px 140px;
+  text-align: center;
+}
+.img-1 {
+  position: absolute;
+  top: 64px;
+  right: 0;
+}
+.img-2{
+  border-radius: 16px 0px 16px 16px;
+  position: absolute;
+  top: 497px;
+  right: 0;
+}
+.img-3{
+  
 }
